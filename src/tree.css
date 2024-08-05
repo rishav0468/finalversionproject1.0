@@ -1,0 +1,147 @@
+.app {
+  margin-top: 30px;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.tree-body {
+  background-color: #151515;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+.header {
+  margin-right: 60px;
+  display: flex;
+  align-items: left;
+  justify-content: space-between;
+  color: white;
+}
+.edge {
+  display: flex;
+  width: 100%;
+  height: 20px;
+}
+.edge-left {
+  width: 50%;
+  height: 40px;
+  background-color: #292929;
+}
+
+.edge-left-line {
+  position: relative;
+  left: 50%;
+}
+
+.svg-line {
+  stroke: black;
+  stroke-width: 2px;
+}
+
+.edge-right {
+  width: 50%;
+  height: 40px;
+  background-color: #292929;
+}
+
+.title {
+  font-family: "Quantico", sans-serif;
+  font-size: 30px;
+  text-align: left;
+  padding-left: 0px;
+  padding-bottom: 20px;
+  margin: 0;
+}
+h1 {
+  text-align: left;
+  margin-bottom: 20px;
+}
+.tree {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-right: 2rem;
+}
+
+.node {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.value {
+  z-index: 1;
+  background-color: #eee;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  margin: 10px 10px 0px 15px;
+}
+
+.children {
+  display: flex;
+  flex-direction: row;
+}
+
+.controls {
+  width: 800px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 60px;
+  margin-right: 60px;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+
+.levelcontrol {
+  display: flex;
+  width: 200px;
+  height: 30px;
+  border-radius: 4px;
+  border: none;
+}
+
+.controls label {
+  font-weight: bold;
+  color: white;
+  margin-bottom: 0.5rem;
+}
+
+.node.visited .value {
+  background-color: #ffa500;
+}
+
+.visited {
+  height: 50vh;
+  width: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  border: none;
+  padding: 1rem;
+}
+
+.visited-title {
+  color: white;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.visited-node {
+  background-color: #eee;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin: 5px;
+}
+.visited-node {
+  background-color: #5156cb;
+  color: white;
+}

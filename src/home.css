@@ -1,0 +1,92 @@
+body {
+  background-color: #151515;
+}
+
+.mainw {
+  display: flex;
+}
+
+.leftc {
+  -webkit-box-shadow: 33px 10px 70px 0px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 33px 10px 70px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 33px 10px 70px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  background-color: #151515;
+  height: 100vh;
+  width: 30vw;
+}
+
+.home-head {
+  color: white;
+  font-family: Raleway;
+  font-weight: bold;
+  margin-left: 60px;
+  margin-top: 10px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.home-logo {
+  position: absolute;
+  left: 205px;
+  top: 21px;
+}
+.hero-section {
+  margin-bottom: 0px;
+  margin-left: 60px;
+  margin-top: 50px;
+  color: white;
+  font-size: 30px;
+  font-family: montserrat;
+  font-weight: bolder;
+}
+
+.home-info {
+  font-size: 18px;
+  font-weight: 600;
+  color: #737373;
+}
+
+.home-button {
+  background-color: #a6ff16;
+  color: black;
+  margin-left: 0px;
+  margin-top: 10px;
+}
+
+.rightc {
+  flex-direction: column;
+  background-color: white;
+  height: 100vh;
+  width: 0vw;
+}
+
+.right-w {
+  width: 70vw;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.particlesdiv {
+  position: absolute;
+  background-color: blue;
+  width: 70vw;
+  height: 100vh;
+  z-index: -1;
+}
+.home-card {
+  background-color: white;
+  width: 200px;
+  height: 280px;
+  margin: 40px;
+  border-radius: 10px;
+  transition: transform 0.2s ease;
+}
+
+.home-card:hover {
+  transform: perspective(500px) rotateY(10deg);
+}

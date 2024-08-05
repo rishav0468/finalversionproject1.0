@@ -1,0 +1,77 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body {
+  background-color: #151515;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.boardcontainer {
+  width: 80vw;
+  height: 80vh;
+  background-color: #292929;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.board {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.head {
+  width: 700px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px;
+}
+
+.square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+}
+
+.title {
+  color: white;
+  font-weight: bold;
+  font-family: "Quantico", sans-serif;
+  font-size: 30px;
+  text-align: left;
+  padding-left: 60px;
+}
+
+button {
+  margin: 0 10px;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #5055ca;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+}
+
+img {
+  z-index: -1;
+  height: 40px;
+  width: 40px;
+}
+
+label {
+  color: white;
+}
